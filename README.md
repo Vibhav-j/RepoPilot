@@ -1,4 +1,5 @@
 # RepoPilot v3
+https://repopilot-six.vercel.app/
 
 A verified multi-agent coding assistant for large repositories, now with a React frontend and a full deployment pipeline. The architecture picture and the folder tree come first; the written details for each are at the bottom.
 
@@ -194,7 +195,7 @@ What improved: every producer and its consumer sit with different people, so the
 
 Every week both people work on the same layer, so they can review each other's code and agree on the contracts. Frontend and deployment add a seventh week.
 
-| Week | Layer | Person A | Person B |
+| Week | Layer | Vibhav | Yogesh |
 | --- | --- | --- | --- |
 | 1 | Index | `parser`, `symbol_graph` | `embedder`, `bm25`, `coverage_map` |
 | 2 | Tools | `client`, `github_server`, `issues_server`, `runner`, llm `client` | `fs_server`, `lsp_server`, `sandbox_server`, `test_detect`, `router` |
